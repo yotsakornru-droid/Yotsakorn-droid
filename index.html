@@ -23,7 +23,7 @@ const ME = {
       "Network Fundamentals & Cloud Architecture Basics",
       "IoT Solutions & Embedded Systems"
     ], 
-    works: [], 
+    works: [nuclear], 
     links: [
       { label: "GitHub", url: "https://github.com/yotsakornru-droid" },
     ], 
@@ -56,6 +56,17 @@ const ME = {
 
 /* ธีมเดียวที่พลิกเป็นพื้นสว่าง จึงต้องเขียนยาวกว่าเพื่อน
    เพราะต้องกลับค่าพื้นหลัง ตัวอักษร เส้น และพื้นการ์ดใหม่ทั้งชุด */
+     [data-theme="nuclear"] {
+  --accent: #39ff14;        /* สีเขียวนีออนนิวเคลียร์ */
+  --accent-soft: #28cc00;   /* สีเขียวเข้มเน้นปุ่ม/ลิงก์ */
+  --glow1: #103408;         /* รังสีเรืองแสงมุมซ้าย */
+  --glow2: #071f04;         /* รังสีเรืองแสงมุมขวา */
+  --bg: #050b04;            /* พื้นหลังสีดำอมเขียวเข้มจัด */
+  --line: #1c3815;          /* สีเส้นแบ่งส่วน */
+  --text: #e2ffe0;          /* สีตัวหนังสือสว่างโทนเขียวอ่อน */
+  --muted: #7fa679;         /* สีตัวหนังสือรอง */
+  --surface: rgba(57, 255, 20, 0.04); /* พื้นหลังการ์ดติดโทนนิวเคลียร์ */
+}
 [data-theme="mono-light"] {
   --accent:#334155; --accent-soft:#475569; --glow1:#dbe3ee; --glow2:#e6ebf3;
   --bg:#f7f9fc; --line:#ccd6e4; --text:#0f172a; --muted:#52627d;
